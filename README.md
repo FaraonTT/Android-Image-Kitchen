@@ -10,7 +10,9 @@
 
 ## 📋 Описание
 
-**Android-Image-Kitchen** — это набор мощных автоматизированных скриптов для работы с образами Android устройств. Инструмент позволяет легко распаковывать и переупаковывать ядро (kernel), recovery-раздел и ramdisk, что незаменимо для разработчиков, модификаторов и энтузиастов Android.
+**Android-Image-Kitchen** — это набор мощных автоматизированных скриптов для работы с образами Android устройств. Инструмент позволяет легко распаковывать, модифицировать и переупаковывать kernel, recovery и другие образы Android.
+
+> **Это форк оригинального репозитория [osm0sis/Android-Image-Kitchen](https://github.com/osm0sis/Android-Image-Kitchen)**
 
 ### ✨ Основные возможности
 
@@ -73,6 +75,7 @@ Android-Image-Kitchen/
 ├── workspace/              # Рабочая директория
 │   ├── extracted/          # Распакованные образы
 │   └── ...
+├── LICENSE                 # MIT License
 └── README.md              # Документация
 ```
 
@@ -160,20 +163,34 @@ repack.bat --help
 
 Этот проект лицензирован под [MIT License](LICENSE) — см. файл `LICENSE` для деталей.
 
+Включает код и утилиты от:
+- **osm0sis** и команды разработчиков
+- Оригинальный проект: [osm0sis/Android-Image-Kitchen](https://github.com/osm0sis/Android-Image-Kitchen)
+
+Полный список авторов и источников смотрите в файле [LICENSE](LICENSE).
+
 ---
 
-## 👤 Автор
+## 👤 Авторы
 
-**FaraonTT** — создатель и мейнтейнер проекта
+### Форк
+**FaraonTT** — текущий мейнтейнер форка
 
 - 🔗 GitHub: [@FaraonTT](https://github.com/FaraonTT)
 - 📧 Свяжитесь через Issues в репозитории
+
+### Оригинальный проект
+**osm0sis** и контрибьюторы сообщества XDA Developers
 
 ---
 
 ## 🙏 Благодарности
 
-Спасибо всем, кто использует этот инструмент и помогает его улучшать!
+Спасибо:
+- **osm0sis** за оригинальный проект
+- Всем контрибьюторам и авторам инструментов, упомянутым в [LICENSE](LICENSE)
+- Сообществу XDA Developers за знания и методы
+- Всем, кто использует этот инструмент и помогает его улучшать!
 
 ---
 
@@ -188,13 +205,18 @@ A: Инструмент совместим с большинством верс�
 **Q: Могу ли я использовать это для своего устройства?**  
 A: Да, если образ в совместимом формате (boot.img, recovery.img и т.д.).
 
+**Q: Что это за форк?**  
+A: Это независимый форк оригинального проекта osm0sis. Полная история авторства сохранена в LICENSE.
+
 ---
 
 ## 🔗 Полезные ссылки
 
+- [Оригинальный проект](https://github.com/osm0sis/Android-Image-Kitchen)
 - [Android Boot Image Format](https://source.android.com/)
 - [Android Development](https://developer.android.com/)
 - [Kernel Source](https://android.googlesource.com/)
+- [XDA Developers Forum](https://xdaforums.com/t/tool-android-image-kitchen-unpack-repack-kernel-ramdisk-win-android-linux-mac.2073775/)
 
 ---
 
